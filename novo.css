@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    width: 393px;
+    height: 79px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cyber {
+    font-family: "Jersey 10";
+    color: white;
+    font-size: xx-large;
+}
+
+.logo {
+    width: 68px;
+    height: 59px;
+    margin-left: 20px;
+    margin-right: 70px;
+}
+
+.baner {
+    width: 370px;
+    height: 123px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.imgBaner {
+    width: 370px;
+    height: 123px;
+    margin-top: 10px;
+}
+
+.dark {
+    width: 370px;
+    height: 123px;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 84px;
+}
+
+.escrBaner {
+    font-family: "Jockey One";
+    color: white;
+    position: absolute;
+    top: 89px;
+    font-size: x-large;
+}
+
+.bottom{
+    width: 197px;
+    height: 173px;
+    background-color: #323232;
+}
