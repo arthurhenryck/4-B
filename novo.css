@@ -1,4 +1,4 @@
-body {
+    body {
     margin: 0;
     display: flex;
     justify-content: center;
@@ -59,8 +59,25 @@ body {
     font-size: x-large;
 }
 
-.bottom{
+.bottom {
     width: 197px;
     height: 173px;
     background-color: #323232;
+    position: relative;
+}
+
+.limpezaimg{
+    width: 173px;
+    height: 116px;
+    position: relative;
+    bottom: 160px;
+    left: 13px;
+}
+
+.Limpeza{
+    font-family: "Playfair Display";
+    color: aqua;
+    position: absolute;
+    top: 345px;
+    left: 170px;
 }
