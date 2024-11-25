@@ -1,83 +1,102 @@
     body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
-.header {
-    width: 393px;
-    height: 79px;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
+    .header {
+        width: 100%;
+        height: 79px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
-.cyber {
-    font-family: "Jersey 10";
-    color: white;
-    font-size: xx-large;
-}
+    .cyber {
+        font-family: "Jersey 10";
+        color: white;
+        font-size: xx-large;
+    }
 
-.logo {
-    width: 68px;
-    height: 59px;
-    margin-left: 20px;
-    margin-right: 70px;
-}
+    .logo {
+        width: 68px;
+        height: 59px;
+        margin-left: 20px;
+        margin-right: 70px;
+    }
 
-.baner {
-    width: 370px;
-    height: 123px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
+    .baner {
+        width: 370px;
+        height: 123px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
 
-.imgBaner {
-    width: 370px;
-    height: 123px;
-    margin-top: 10px;
-}
+    .imgBaner {
+        width: 370px;
+        height: 123px;
+        margin-top: 10px;
+    }
 
-.dark {
-    width: 370px;
-    height: 123px;
-    background: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    top: 84px;
-}
+    .dark {
+        width: 370px;
+        height: 123px;
+        background: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        top: 84px;
+    }
 
-.escrBaner {
-    font-family: "Jockey One";
-    color: white;
-    position: absolute;
-    top: 89px;
-    font-size: x-large;
-}
+    .escrBaner {
+        font-family: "Jockey One";
+        color: white;
+        position: absolute;
+        top: 89px;
+        font-size: x-large;
+    }
 
-.bottom {
-    width: 197px;
-    height: 173px;
-    background-color: #323232;
-    position: relative;
-}
+    .bottom {
+        width: 197px;
+        height: 173px;
+        background-color: #323232;
+        position: relative;
+        margin-bottom: -180px;
+    }
 
-.limpezaimg{
-    width: 173px;
-    height: 116px;
-    position: relative;
-    bottom: 160px;
-    left: 13px;
-}
+    .limpezaimg {
+        width: 173px;
+        height: 116px;
+        position: relative;
+        top: 20px;
+        left: 13px;
+    }
 
-.Limpeza{
-    font-family: "Playfair Display";
-    color: aqua;
-    position: absolute;
-    top: 345px;
-    left: 170px;
-}
+    .texto {
+        font-family: "Playfair Display";
+        font-size: x-large;
+        color: aqua;
+    }
+
+    .Limpeza {
+        position: relative;
+        bottom: 6px;
+        left: 50px;
+    }
+
+    .Backup {
+        position: relative;
+        bottom: 6px;
+        left: 58px;
+    }
+
+    .promo{
+        width: 70px;
+        height: 100%;
+        position: relative;
+        bottom: 215px;
+        left: 151px;
+    }
